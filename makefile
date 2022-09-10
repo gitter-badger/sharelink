@@ -3,7 +3,7 @@ PYTHON=python
 GIT=git
 
 commit:
-	$(GIT) add * .gitignore
+	-$(GIT) add * .gitignore
 	$(GIT) commit
 
 push:commit
